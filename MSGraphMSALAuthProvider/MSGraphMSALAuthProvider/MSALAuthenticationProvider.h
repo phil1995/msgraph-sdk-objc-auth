@@ -3,7 +3,11 @@
 //
 #import <Foundation/Foundation.h>
 #import <MSAL/MSAL.h>
+#if SWIFT_PACKAGE
+@import MSGraphClientSDK;
+#else
 #import <MSGraphClientSDK/MSGraphClientSDK.h>
+#endif
 #import "MSALAuthenticationProviderOptions.h"
 
 /*

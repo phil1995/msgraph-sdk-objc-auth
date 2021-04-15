@@ -3,7 +3,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#if SWIFT_PACKAGE
+@import MSGraphClientSDK;
+#else
 #import <MSGraphClientSDK/MSGraphClientSDK.h>
+#endif
 
 /*
  This class provides concrete implementation for MSAuthenticationProviderOptions protocol and options mechanism to control the behaviour of Authentication Provider.

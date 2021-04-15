@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "MSAL",
+        "repositoryURL": "https://github.com/AzureAD/microsoft-authentication-library-for-objc.git",
+        "state": {
+          "branch": null,
+          "revision": "53221d4470b95ecfef92fedb3fd9b105d0c12796",
+          "version": "1.1.16"
+        }
+      },
+      {
+        "package": "MSGraphClientSDK",
+        "repositoryURL": "https://github.com/phil1995/msgraph-sdk-objc",
+        "state": {
+          "branch": "swift-pm",
+          "revision": "a4d0a18ab62176762e4efc2f56021c2f386d98bc",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
